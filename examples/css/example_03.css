@@ -1,0 +1,9 @@
+/* Styles for heading one */
+h1 {
+    color: green;
+}
+
+/* Universal selector */
+p {
+    color: blue;
+}

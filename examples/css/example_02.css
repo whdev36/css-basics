@@ -1,0 +1,19 @@
+p {
+    color: red;
+}
+
+.text {
+    color: blue;
+}
+
+#text {
+    color: green;
+}
+
+[disabled] {
+    color: violet;
+}
+
+* {
+    color: purple;
+}
