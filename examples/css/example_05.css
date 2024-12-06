@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+}
+
+/* Style for div element */
+div {
+    color: red;
+}
+
+/* Style to h2 element */
+h2 {
+    color: blue;
+}
+
+/* Style to p element */
+p {
+    color: green;
+}
+
