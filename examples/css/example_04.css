@@ -1,0 +1,17 @@
+/* Style with ID to heading one */
+#heading {
+    color: red;
+}
+
+/* Style with Class to heading one */
+.heading {
+    font-family: sans-serif;
+    font-size: 24px;
+    color: blue;
+}
+
+/* Style with element to heading one */
+h1 {
+    font-size: 48px;
+    color: green;
+}
