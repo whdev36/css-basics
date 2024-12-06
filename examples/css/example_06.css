@@ -1,3 +1,15 @@
-section p {
+/* section p {
     background: yellow;
-}
+} */
+
+/* section > p {
+    background: yellow;
+} */
+
+/* section + p {
+    background: yellow;
+} */
+
+/* section ~ p {
+    background: yellow;
+} */
