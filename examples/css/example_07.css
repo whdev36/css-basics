@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-green {
+    color: green;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-100 {
+    font-weight: 100;
+}

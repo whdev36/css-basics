@@ -1,0 +1,8 @@
+.red {
+    color: red;
+}
+
+.active {
+    background: red;
+    color: white;
+}
