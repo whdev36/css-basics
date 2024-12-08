@@ -1,0 +1,32 @@
+.block {
+    background: red;
+}
+
+.inline,
+.block {
+    color: white;
+}
+
+.inline {
+    background: blue;
+}
+
+.to-block {
+    display: block;
+}
+
+.to-inline {
+    display: inline;
+}
+
+.to-inline-block {
+    display: inline-block;
+}
+
+span.to-inline-block {
+    margin-top: 50px;
+}
+
+.to-none {
+    display: none;
+}
