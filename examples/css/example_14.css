@@ -1,0 +1,65 @@
+.p1 {
+    /* text-align: left; */
+    background-color: red;
+}
+
+.p2 {
+    /* text-align: center; */
+    background-color: blue;
+}
+
+.p3 {
+    /* text-align: right; */
+    background-color: green;
+}
+
+.p {
+    padding: 10px 20px;
+    color: white;
+}
+
+.link {
+    text-align: center;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.container span {
+    display: inline-block;
+    /* vertical-align: top; */
+    /* vertical-align: middle; */
+    /* vertical-align: bottom; */
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+
+.box2 {
+    width: 100px;
+    height: 150px;
+    background: red;
+}
+
+.box3 {
+    width: 100px;
+    height: 50px;
+    background: yellow;
+}
+
+.news {
+    width: 40%;
+}
+
+.news .p1 {
+    float: left;
+}
+
+.news .p2 {
+    float: right;
+}
