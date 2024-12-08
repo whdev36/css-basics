@@ -1,0 +1,47 @@
+html,
+body {
+    padding: 10px;
+    height: 100%;
+    margin: 0;
+}
+
+.box {
+    background-color: red;
+    /* padding: 50px; */
+    /* height: 400px; */
+    /* height: 100%; */
+    /* width: 400px; */
+    /* width: 100%; */
+    /* margin: 10px; */
+    border: 5px solid green;
+    color: white;
+}
+
+p {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+/* Max hight */
+p {
+    /* max-height: 30px; */
+    overflow: auto;
+}
+
+/* Min heights */
+p {
+    min-height: 20px;
+}
+
+/* Min width */
+.box1 {
+    max-width: 500px;
+    background: green;
+}
+
+.box2 {
+    min-width: 400px;
+    display: inline-block;
+    background: red;
+}
