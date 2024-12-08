@@ -1,3 +1,4 @@
+/* Core styles */
 body {
     font-family: sans-serif;
 }
@@ -5,6 +6,14 @@ body {
 .container {
     width: 1140px;
     margin: 0 auto;
+}
+
+.to-uppercase {
+    text-transform: uppercase;
+}
+
+.clearfix {
+    clear: both;
 }
 
 .brand {
@@ -40,4 +49,90 @@ body {
 
 .nav-item.active a {
     color: #efb6df;
+}
+
+/* Main section */
+.home-section {
+    padding: 100px 30px;
+}
+
+.home-section > div {
+    width: 50%;
+    float: left;
+}
+
+.home-image {
+    text-align: right;
+}
+
+.home-welcome {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #797979;
+}
+
+.home-intro {
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #05364d;
+}
+
+.home-position {
+    color: #05364d;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.home-social a {
+    color: #8fa1aa;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.home-social a:hover i {
+    color: #1c44e4;
+}
+
+.home-action {
+    margin-top: 30px;
+    border: none;
+    background: #1c44e4;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Statistics */
+.statistics {
+    padding-top: 100px;
+}
+
+.statistic-item {
+    display: inline-block;
+    background: #f8faff;
+    text-align: center;
+    width: 150px;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+
+.statistic-num {
+    font-size: 27px;
+    margin-bottom: 5px;
+    color: #1c44e4;
+}
+
+.statistic-title {
+    font-size: 16px;
+    color: #797979;
+    font-weight: 300;
 }
