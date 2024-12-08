@@ -1,0 +1,21 @@
+.box {
+    color: white;
+    background-color: red;
+}
+
+/* Padding */
+.box {
+    padding: 20px;
+}
+
+/* Border */
+.box {
+    border-width: 5px;
+    border-style: solid;
+    border-color: green;
+}
+
+/* Margin */
+.box {
+    margin: 10px;
+}
