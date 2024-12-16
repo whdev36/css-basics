@@ -21,3 +21,13 @@ body {
     top: 0;
     left: 0;
 }
+
+/* Paragraph style */
+p {
+    font-size: 24px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
