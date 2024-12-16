@@ -1,0 +1,23 @@
+/* Body styles */
+body {
+    height: 1000vh;
+}
+
+/* Style to Relative box */
+.relative {
+    background: blue;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: 50px; /* to top */
+    left: 100px; /* to left */
+}
+
+/* Style to Fixed box */
+.fixed {
+    position: fixed;
+    background: red;
+    padding: 10px;
+    top: 0;
+    left: 0;
+}
