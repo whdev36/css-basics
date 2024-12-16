@@ -56,7 +56,7 @@ body {
     padding: 100px 30px;
 }
 
-.home-section > div {
+.home-section>div {
     width: 50%;
     float: left;
 }
@@ -101,14 +101,6 @@ body {
 
 .home-action {
     margin-top: 30px;
-    border: none;
-    background: #1c44e4;
-    color: #fff;
-    font-weight: 500;
-    font-size: 14px;
-    padding: 20px 40px;
-    cursor: pointer;
-    border-radius: 5px;
 }
 
 /* Statistics */
@@ -135,4 +127,56 @@ body {
     font-size: 16px;
     color: #797979;
     font-weight: 300;
+}
+
+/* About me section */
+.about-me {
+    padding: 100px 0;
+}
+
+.about-me>div {
+    width: 50%;
+    float: left;
+}
+
+.about-me-image img {
+    width: 90%;
+}
+
+.section-subtitle {
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #797979;
+    text-transform: uppercase;
+}
+
+.section-title {
+    margin-top: 5px;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #05364d;
+}
+
+.about-me-description {
+    font-size: 14px;
+    font-weight: 300;
+    color: #797979;
+    line-height: 27px;
+}
+
+.button {
+    border: none;
+    background: #1c44e4;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.about-action {
+    margin-top: 40px;
 }
