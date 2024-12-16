@@ -1,0 +1,18 @@
+/* Style to Box */
+.box {
+    background: red;
+    color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.box1 {
+    top: 10px;
+    left: 20px;
+    position: relative;
+}
+
+a {
+    background: blue;
+    color: white;
+}
