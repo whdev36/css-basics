@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -103,7 +104,9 @@
                 <img src="./images/about-us.png" alt="about-us">
             </div>
             <div class="about-me-info">
-                <h5 class="section-subtitle">About me</h5>
+                <h5 class="section-subtitle">About me
+                    <span class="blur-line"></span>
+                </h5>
                 <h3 class="section-title">Senior Front-End Developer</h3>
                 <p class="about-me-description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, unde molestiae corporis error
@@ -118,17 +121,102 @@
         <!-- /About me section -->
     </div>
 
-    <!-- Services section -->
-    <section id="services">
-        <h1>Services section</h1>
-    </section>
-    <!-- /Services section -->
+    <div class="container">
+        <!-- Services section -->
+        <section class="services" id="services">
+            <!-- <h1>Services section</h1> -->
 
-    <!-- Testimonials section -->
-    <section id="testimonials">
-        <h1>Testimonials</h1>
-    </section>
-    <!-- /Testimonials section -->
+            <h5 class="section-subtitle">
+                My Services
+                <span class="blur-line"></span>
+            </h5>
+            <h2 class="section-title">
+                My Services List
+            </h2>
+            <div class="service-cards">
+                <div class="card">
+                    <img src="./images/s1.png" alt="Service 1" class="card-image">
+                    <h5 class="card-title">Web Development</h5>
+                    <p class="card-description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis soluta labore ratione rem
+                        repudiandae, dolore voluptatibus alias ea voluptatum dolor unde, blanditiis, quidem fugit
+                        eveniet?
+                        Voluptate dolor explicabo perferendis totam!
+                    </p>
+                    <a href="#" class="card-link">More</a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="card">
+                    <img src="./images/s2.png" alt="Service 1" class="card-image">
+                    <h5 class="card-title">Web Development</h5>
+                    <p class="card-description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis soluta labore ratione rem
+                        repudiandae, dolore voluptatibus alias ea voluptatum dolor unde, blanditiis, quidem fugit
+                        eveniet?
+                        Voluptate dolor explicabo perferendis totam!
+                    </p>
+                    <a href="#" class="card-link">More</a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="card">
+                    <img src="./images/s3.png" alt="Service 1" class="card-image">
+                    <h5 class="card-title">Web Development</h5>
+                    <p class="card-description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis soluta labore ratione rem
+                        repudiandae, dolore voluptatibus alias ea voluptatum dolor unde, blanditiis, quidem fugit
+                        eveniet?
+                        Voluptate dolor explicabo perferendis totam!
+                    </p>
+                    <a href="#" class="card-link">More</a>
+                </div>
+            </div>
+        </section>
+        <!-- /Services section -->
+    </div>
+
+    <div class="container">
+        <!-- Testimonials section -->
+        <section id="testimonials">
+            <!-- <h1>Testimonials</h1> -->
+            <h5 class="section-subtitle">My Testimonials <span class="blur-line"></span></h5>
+            <h2 class="section-title">My Testimonials List</h2>
+
+            <!-- Client -->
+            <div class="clients">
+                <div class="client">
+                    <div class="client-image">
+                        <img src="./images/testimonial1.png" alt="Client 1">
+                    </div>
+
+                    <!-- Client info -->
+                    <div class="client-info">
+                        <h3 class="client-name">John Doe</h3>
+                        <p class="profession">Senior Backend Developer</p>
+                        <p class="client-review">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur soluta atque voluptas
+                            molestiae deserunt tempora provident repellat neque explicabo quasi. Earum incidunt
+                            accusantium
+                            enim recusandae sed aliquid, repellat id facilis.
+                        </p>
+
+                        <!-- Stars -->
+                        <div class="client-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star disabled"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Client -->
+        </section>
+        <div class="clearfix"></div>
+        <!-- /Testimonials section -->
+    </div>
 
     <!-- Portfolio section -->
     <section id="portfolio">

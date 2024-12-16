@@ -159,6 +159,15 @@ body {
     color: #05364d;
 }
 
+.blur-line {
+    display: inline-block;
+    margin-left: 5px;
+    width: 80px;
+    height: 4px;
+    background: rgba(237, 35, 159, 0.6);
+    filter: blur(4px);
+}
+
 .about-me-description {
     font-size: 14px;
     font-weight: 300;
@@ -179,4 +188,98 @@ body {
 
 .about-action {
     margin-top: 40px;
+}
+
+/* Services section styles */
+.services {
+    padding-top: 100px;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 60px 30px;
+    background: #f8faff;
+    margin-right: 3%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.card-title {
+    color: #05364d;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.card-description {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #797979;
+}
+
+.card-link {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #05364d;
+    text-decoration: none;
+}
+
+.card:hover {
+    background: #5f30ff;
+}
+
+.card:hover .card-title,
+.card:hover .card-description,
+.card:hover .card-link {
+    color: #fff;
+}
+
+/* Client section styles */
+.testimonials {
+    padding-top: 100px;
+}
+
+.client > div {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.client-image img {
+    width: 100%;
+}
+
+.client-info {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.client-name {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.profession {
+    font-size: 14px;
+    font-weight: 300;
+    color: #5b6d75;
+}
+
+.client-review {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #5b6d75;
+}
+
+.clint-rating {
+    color: #ffd805;
+}
+
+.clint-rating .disabled {
+    color: #aeb9be;
 }
